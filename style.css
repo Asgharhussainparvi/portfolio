@@ -292,6 +292,16 @@ body {
   text-align: center;
 }
 
+.project-category-title {
+  margin: 45px 0 10px;
+  font-size: 24px;
+  color: #222;
+}
+
+.project-category-title:first-of-type {
+  margin-top: 25px;
+}
+
 .projects-grid {
   display: flex;
   gap: 30px;
@@ -369,6 +379,16 @@ body {
 .project-info a:hover {
   background: #000;
   color: #fff;
+}
+
+.private-project {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 /* Contact Section */
@@ -451,6 +471,9 @@ body {
   margin: 0 10px;
   transition: 0.3s;
 }
+
+
+
 
 .social-icons a:hover {
   color: #1da1f2;
